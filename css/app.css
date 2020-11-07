@@ -1,4 +1,3 @@
-
 body {
   font-family: "Rakkas", cursive;
   padding: 0px;
@@ -11,14 +10,14 @@ body {
   opacity: 0.8;
   display: flex;
   flex-wrap: wrap;
+  /* align-items: flex-start; */
 }
 
-@media all and (max-device-width: 480px) {
+@media all and (max-width: 100%) {
   * {
     flex-wrap: wrap;
     flex: 1 1 50%;
   }
-  
 }
 
 .header {
@@ -122,17 +121,14 @@ body {
   font-size: 16px;
   /* background-color: tomato; */
   opacity: 0.9;
-/*   
-  @media (max-width:$laptop){
-  disply:block;
-  }
-} */
- 
+}
+
 @media all and(max-width: 400px) {
   .unorder-list a {
-    flex: 0 1 100%;
+    flex: 1 1 100%;
   }
 }
+
 #logo {
   width: 100px;
   height: 100px;
@@ -422,7 +418,7 @@ align-items: flex-end;
   flex-wrap: wrap;
   justify-items: center;
   justify-content: space-evenly;
-  flex: 0 1 1;
+  /* flex: 0 1 1; */
   /* justify-items: center; */
   /* transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045); */
 }
