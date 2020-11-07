@@ -16,7 +16,7 @@ body {
 @media all and (max-device-width: 480px) {
   * {
     flex-wrap: wrap;
-    flex: 0 1 50%;
+    flex: 1 1 50%;
   }
   
 }
@@ -422,7 +422,7 @@ align-items: flex-end;
   flex-wrap: wrap;
   justify-items: center;
   justify-content: space-evenly;
-  /* flex: 0 1 1; */
+  flex: 0 1 1;
   /* justify-items: center; */
   /* transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045); */
 }
