@@ -760,28 +760,28 @@ iframe {
   margin-top: 400px;
   opacity: 0.9;
 
-  /* width: 800vw;
+   width: 800vw;
   height: 700px;
   background-size: cover;
   background-position: top left;
   background-repeat: no-repeat;
   align-content: center;
-  justify-items: center; */
+  justify-items: center; 
 }
 
-/* .timer { */
-/* display: flex; */
-/* flex-direction: column; */
-/* justify-content: center; */
-/* align-content: center; */
-/* text-align: center; */
-/* margin-left: 500px; */
-/* } */
-/* 
+ .timer { 
+ display: flex; 
+ flex-direction: column; 
+ justify-content: center; 
+ align-content: center; 
+ text-align: center; 
+ margin-left: 500px; 
+ } 
+
 .timer > h3 {
   text-align: center;
   color: aqua;
   justify-content: center;
   margin: auto;
   justify-items: center;
-} */
+} 
