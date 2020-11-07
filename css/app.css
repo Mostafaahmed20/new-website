@@ -16,7 +16,7 @@ body {
 @media all and (max-device-width: 480px) {
   * {
     flex-wrap: wrap;
-    flex: 1 1 50%;
+    flex: 0 1 50%;
   }
   
 }
@@ -122,18 +122,17 @@ body {
   font-size: 16px;
   /* background-color: tomato; */
   opacity: 0.9;
-  
+/*   
   @media (max-width:$laptop){
   disply:block;
   }
-}
-/* 
+} */
+ 
 @media all and(max-width: 400px) {
   .unorder-list a {
-    flex: 1 1 100%;
+    flex: 0 1 100%;
   }
 }
- */
 #logo {
   width: 100px;
   height: 100px;
