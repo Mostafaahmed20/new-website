@@ -13,7 +13,7 @@ body {
   /* align-items: flex-start; */
 }
 
-@media all and (max-width: 100%) {
+@media all and (max-device-width: 480px) {
   * {
     flex-wrap: wrap;
     flex: 1 1 50%;
