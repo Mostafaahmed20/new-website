@@ -1,3 +1,8 @@
+$desktop:1200px
+$laptop:992px
+$tablet:768px
+$phone:480px
+
 body {
   font-family: "Rakkas", cursive;
   padding: 0px;
@@ -10,7 +15,13 @@ body {
   opacity: 0.8;
   display: flex;
   flex-wrap: wrap;
-  /* align-items: flex-start; */
+  @media screen and (max-width:$desktop) and (main-width:$tablet) {
+  
+  }
+  
+  @media (max-width:$laptop){
+  
+  }
 }
 
 @media all and (max-device-width: 480px) {
@@ -121,14 +132,18 @@ body {
   font-size: 16px;
   /* background-color: tomato; */
   opacity: 0.9;
+  
+  @media (max-width:$laptop){
+  disply:block;
+  }
 }
-
+/* 
 @media all and(max-width: 400px) {
   .unorder-list a {
     flex: 1 1 100%;
   }
 }
-
+ */
 #logo {
   width: 100px;
   height: 100px;
